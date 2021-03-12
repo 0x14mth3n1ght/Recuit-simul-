@@ -48,5 +48,5 @@ il devient le nouveau texte à déchiffrer.
 probabilité ![equation](http://www.sciweavers.org/download/Tex2Img_1615582434.jpg)
 
 Le paramètre Beta est inversement proportionnel au paramètre T évoqué plus haut. Il
-croît donc au cours du temps selon une fonction à déterminer. Choisir ici Beta = log(i)/10
+croît donc au cours du temps selon une fonction à déterminer. Choisir ici ![equation](http://www.sciweavers.org/download/Tex2Img_1615582624.jpg)
 , avec i compteur d'itérations de l'algorithme.
