@@ -144,6 +144,6 @@ affiche_freq_lettres(freq, A)
 affiche_freq_bigr(freq_bigr, A)
 P = calcul_P(chaine, A) 
 texte_chiffre = fichier2str('texte_a_dechiffrer.txt') 
-n_iter = 10
+n_iter = 10000
 texte, L_opt, liste_L = dechiffrement(texte_chiffre, n_iter, P, A) 
-sprint(texte)
+print(texte)
