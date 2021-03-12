@@ -10,13 +10,14 @@ consiste à permuter toutes les lettres de l'alphabet entre elles (par exemple, 
 
 Pour un texte donné, si x et y sont deux caractères, on définit la quantité Px;y comme la proportion de y parmi les caractères qui suivent x : 
 
-Pxy = fxy/fx
+![equation](http://www.sciweavers.org/upload/Tex2Img_1615581681/render.png)
 
 Où fx correspond à la fréquence d'apparition de la lettre x, et fxy à la fréquence d'apparition du
 bigramme xy. Par exemple, Pet doit être grand, tandis que Pjw doit être faible. 
 On appellera vraisemblance d'un texte t relative à la matrice P la quantité : 
 
-LP (t) =somme(log(Pti ti+1))
+![equation](http://www.sciweavers.org/download/Tex2Img_1615582284.jpg)
+
 Où ti représente le ième caractère du texte t. 
 
 
@@ -44,7 +45,7 @@ On obtient ainsi un nouveau texte.
 il devient le nouveau texte à déchiffrer. 
 
 -Sinon, il peut devenir quand même le nouveau texte à déchiffrer, mais seulement avec la
-probabilité exp(Beta(L1-L0))
+probabilité ![equation](http://www.sciweavers.org/download/Tex2Img_1615582434.jpg)
 
 Le paramètre Beta est inversement proportionnel au paramètre T évoqué plus haut. Il
 croît donc au cours du temps selon une fonction à déterminer. Choisir ici Beta = log(i)/10
