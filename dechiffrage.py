@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from math import log, exp
 from random import sample, random
-%matplotlib inline
 
 def fichier2str(nom_fichier):
     """
