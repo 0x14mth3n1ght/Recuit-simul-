@@ -25,7 +25,7 @@ def alphabet():
     A = []
     for code in range(97, 123):
         A.append(chr(code))
-        A.append(chr(32))
+    A.append(chr(32))
     return A
 
 
