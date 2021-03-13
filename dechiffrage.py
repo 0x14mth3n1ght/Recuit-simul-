@@ -167,6 +167,7 @@ chaine = fichier2str('texte_reference.txt')
 A = alphabet()
 
 freq, freq_bigr = freq_bigrammes(chaine, A)
+affiche_freq_lettres(freq, A)
 affiche_freq_bigr(freq_bigr, A)
 
 P = calcul_P(chaine, A)
