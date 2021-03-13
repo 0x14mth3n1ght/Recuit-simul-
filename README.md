@@ -45,7 +45,7 @@ On obtient ainsi un nouveau texte.
 il devient le nouveau texte à déchiffrer. 
 
 -Sinon, il peut devenir quand même le nouveau texte à déchiffrer, mais seulement avec la
-probabilité ![equation](http://www.sciweavers.org/download/Tex2Img_1615582434.jpg)
+probabilité ![equation](http://www.sciweavers.org/download/Tex2Img_1615582434.jpg) (critère de Metropolis).
 
 Le paramètre Beta est inversement proportionnel au paramètre T évoqué plus haut. Il
 croît donc au cours du temps selon une fonction à déterminer. Choisir ici ![equation](http://www.sciweavers.org/download/Tex2Img_1615582624.jpg)
