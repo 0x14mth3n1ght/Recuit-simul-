@@ -49,3 +49,5 @@ probabilité ![equation](http://www.sciweavers.org/download/Tex2Img_1615582434.j
 Le paramètre Beta est inversement proportionnel au paramètre T évoqué plus haut. Il
 croît donc au cours du temps selon une fonction à déterminer. Ici on choisit ![equation](http://www.sciweavers.org/download/Tex2Img_1615582624.jpg)
 , avec i compteur d'itérations de l'algorithme.
+
+Ne pas à hésiter à relancer plusieurs fois l'algorithme et éventuellement changer le nombre d'itérations, le résultat n'est pas toujours garanti.
