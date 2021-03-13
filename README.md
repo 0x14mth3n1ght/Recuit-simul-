@@ -1,5 +1,4 @@
 # Recuit-simul-
-Une ébauche de déchiffrement par analyse fréquentielle
 
 Le but est de déchiffrer un texte en s'appuyant sur la probabilité d'apparition des lettres de l'alphabet dans un texte. 
 Ici, notre alphabet sera composé des lettres minuscules de l'alphabet français ('a', 'b',..., 'z') et du caractère espace (' '). 
@@ -48,5 +47,5 @@ il devient le nouveau texte à déchiffrer.
 probabilité ![equation](http://www.sciweavers.org/download/Tex2Img_1615582434.jpg) (critère de Metropolis).
 
 Le paramètre Beta est inversement proportionnel au paramètre T évoqué plus haut. Il
-croît donc au cours du temps selon une fonction à déterminer. Choisir ici ![equation](http://www.sciweavers.org/download/Tex2Img_1615582624.jpg)
+croît donc au cours du temps selon une fonction à déterminer. Ici on choisit ![equation](http://www.sciweavers.org/download/Tex2Img_1615582624.jpg)
 , avec i compteur d'itérations de l'algorithme.
