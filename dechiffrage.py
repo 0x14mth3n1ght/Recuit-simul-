@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 from math import log, exp 
 from random import sample, random 
-
+%matplotlib inline
 
 def fichier2str(nom_fichier):
     """ Renvoie le contenu du fichier sous forme de chaîne de caractères. """ 
@@ -28,7 +28,7 @@ def alphabet():
 def freq_bigrammes(chaine,alphabet):
     """ Renvoie le tableau 2D des fréquences d'apparition des lettres et des bigrammes (suite de deux lettres consécutives). """
 
-    n = 27 
+    n = len(alphabet) 
     m = len(chaine)
     
     # tableau des fréquences des bigrammes 
@@ -71,7 +71,7 @@ def affiche_freq_bigr(freq_bigr, A):
             
 def calcul_P(chaine,alphabet): 
     """ Renvoie la matrice des proba Pxy (proba d'avoir l'enchaînement des deux caractères x et y). """ 
-    n = 27
+    n = len(aphabet)
     freq, big = freq_bigrammes(chaine,alphabet) 
     P = np.zeros((n, n))
     for x in range(n): 
